@@ -1,0 +1,40 @@
+body{
+	background-color:rgba(0, 0, 0, 0.0);
+}
+html { 
+  background: url(andes.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+.Ill {
+     width: 450px;
+     height: 60%;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 100px;
+     transition: transform 1s;
+     transition-timing-function: ease-in-out;
+}
+
+.Ill:hover {
+	transform: rotate(2.5deg) scale(1.1);
+	cursor: pointer;
+	
+
+	
+}
+
+
+.audio {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 35px;
+}
